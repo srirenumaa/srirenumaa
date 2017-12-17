@@ -361,6 +361,10 @@ body {
       z-index: 20; }
   .composition:hover .composition__photo:not(:hover) {
     transform: scale(0.95); }
+    .composition-map a{
+      display: none;
+    }
+  
 
 .composition-map {
   position: absolute;
