@@ -478,10 +478,10 @@ body {
   display: inline-block; }
   @media (max-width: 56.25em) {
     .composition-map {
-      width: 80%;
-      height: 80%;
-      top: 75rem;
-      left: 10%;
+      width: 70%;
+      height: 70%;
+      top: 80rem;
+      left: 15%;
       margin-bottom: 50rem; } }
   @media (max-width: 37.5em) {
     .composition-map {
