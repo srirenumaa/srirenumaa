@@ -188,6 +188,18 @@ body {
   text-align: center;
   letter-spacing: 5px; }
 
+.heading-tertiary-products-1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: block;
+  margin-top: 1rem;
+  margin-left: 0; }
+  @media (max-width: 56.25em) {
+    .heading-tertiary-products-1 {
+      width: 70%;
+      margin-left: 5rem; } }
+
 .u-center-text {
   text-align: center; }
 
@@ -613,8 +625,24 @@ body {
     position: absolute;
     top: 2rem;
     left: 2rem; }
+    @media (max-width: 56.25em) {
+      .header-product__logo-box-product {
+        position: absolute;
+        top: 3rem;
+        left: 2rem; } }
+    @media (max-width: 37.5em) {
+      .header-product__logo-box-product {
+        position: absolute;
+        top: 4.5rem;
+        left: 2rem; } }
   .header-product__logo-product {
     height: 10rem; }
+    @media (max-width: 56.25em) {
+      .header-product__logo-product {
+        height: 8rem; } }
+    @media (max-width: 37.5em) {
+      .header-product__logo-product {
+        height: 5rem; } }
   .header-product__text-box-product {
     position: absolute;
     top: 50%;
@@ -968,7 +996,8 @@ body {
   padding: 3rem 0;
   font-size: 1.4rem;
   color: #f7f7f7;
-  margin-top: 20rem; }
+  margin-top: 20rem;
+  margin-top: 10rem !important; }
   @media (max-width: 56.25em) {
     .footer-product {
       margin-top: 10rem; } }
@@ -1021,6 +1050,39 @@ body {
         float: none;
         width: 100%;
         text-align: center; } }
+
+.product {
+  display: block; }
+
+.product-box {
+  margin-top: 2rem;
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: 1.5rem;
+  padding: 2.5rem;
+  border-radius: 3px;
+  text-align: center;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+  transition: all .2s;
+  position: relative; }
+  @media (max-width: 56.25em) {
+    .product-box {
+      margin-top: 8rem;
+      padding: 2rem;
+      box-shadow: 0 1.5rem 2rem rgba(0, 0, 0, 0.15); } }
+  .product-box:hover {
+    transform: translateY(-1.5rem) scale(1.03); }
+
+.product-icon {
+  font-size: 10rem;
+  margin-bottom: .5rem;
+  display: inline-block;
+  background-image: linear-gradient(to right, #ffb900, #ff7730);
+  -webkit-background-clip: text;
+  color: transparent; }
+  @media (max-width: 56.25em) {
+    .product-icon {
+      font-size: 8rem;
+      margin-bottom: .3rem; } }
 
 .feature-box {
   margin-top: 12rem;
