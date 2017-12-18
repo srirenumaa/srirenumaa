@@ -956,11 +956,11 @@ body {
         text-align: center; } }
   @media (max-width: 56.25em) {
     .footer-contact {
-      margin-top: 70rem;
+      margin-top: 80rem;
       margin-right: 0; } }
   @media (max-width: 37.5em) {
     .footer-contact {
-      margin-top: 70rem;
+      margin-top: 80rem;
       margin-right: 0; } }
 
 .footer-product {
