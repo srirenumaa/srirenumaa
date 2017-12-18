@@ -479,14 +479,14 @@ body {
   @media (max-width: 56.25em) {
     .composition-map {
       width: 70%;
-      height: 70%;
+      height: 54%;
       top: 80rem;
       left: 15%;
       margin-bottom: 0; } }
   @media (max-width: 37.5em) {
     .composition-map {
       width: 70%;
-      height: 70%;
+      height: 54%;
       top: 80rem;
       left: 15%;
       margin-bottom: 0; } }
