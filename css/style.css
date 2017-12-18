@@ -844,6 +844,9 @@ body {
   @media (max-width: 56.25em) {
     .footer-about {
       margin-top: 10rem; } }
+  @media (max-width: 37.5em) {
+    .footer-about {
+      margin-top: 10rem; } }
   .footer-about__logo-box {
     text-align: center;
     margin-bottom: 8rem; }
@@ -898,6 +901,9 @@ body {
   color: #f7f7f7;
   margin-top: 20rem; }
   @media (max-width: 56.25em) {
+    .footer-contact {
+      margin-top: 10rem; } }
+  @media (max-width: 37.5em) {
     .footer-contact {
       margin-top: 10rem; } }
   .footer-contact__logo-box {
@@ -962,6 +968,9 @@ body {
   color: #f7f7f7;
   margin-top: 20rem; }
   @media (max-width: 56.25em) {
+    .footer-product {
+      margin-top: 10rem; } }
+  @media (max-width: 37.5em) {
     .footer-product {
       margin-top: 10rem; } }
   .footer-product__logo-box {
