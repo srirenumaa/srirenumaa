@@ -482,14 +482,14 @@ body {
       height: 70%;
       top: 80rem;
       left: 15%;
-      margin-bottom: 50rem; } }
+      margin-bottom: 0; } }
   @media (max-width: 37.5em) {
     .composition-map {
       width: 70%;
       height: 70%;
       top: 80rem;
       left: 15%;
-      margin-bottom: 35rem; } }
+      margin-bottom: 0; } }
   .composition-map::after {
     content: "";
     display: table;
@@ -956,11 +956,11 @@ body {
         text-align: center; } }
   @media (max-width: 56.25em) {
     .footer-contact {
-      margin-top: 60rem;
+      margin-top: 70rem;
       margin-right: 0; } }
   @media (max-width: 37.5em) {
     .footer-contact {
-      margin-top: 80rem;
+      margin-top: 70rem;
       margin-right: 0; } }
 
 .footer-product {
