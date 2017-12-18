@@ -478,9 +478,11 @@ body {
   display: inline-block; }
   @media (max-width: 56.25em) {
     .composition-map {
-      width: 50%;
+      width: 80%;
+      height: 80%;
       top: 75rem;
-      left: 25%; } }
+      left: 10%;
+      margin-bottom: 50rem; } }
   @media (max-width: 37.5em) {
     .composition-map {
       width: 70%;
