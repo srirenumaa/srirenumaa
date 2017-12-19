@@ -1138,11 +1138,23 @@ body {
   width: 5rem;
   height: auto;
   margin-left: -.5rem; }
+  @media (max-width: 56.25em) {
+    .dealer-logo {
+      margin-left: 22.5rem; } }
+  @media (max-width: 37.5em) {
+    .dealer-logo {
+      margin-left: 22.5rem; } }
 
 .dealer-logo-3 {
   width: 5rem;
   height: auto;
   margin-left: 4.5rem; }
+  @media (max-width: 56.25em) {
+    .dealer-logo-3 {
+      margin-left: 22.5rem; } }
+  @media (max-width: 37.5em) {
+    .dealer-logo-3 {
+      margin-left: 22.5rem; } }
 
 .section-about {
   background-color: #f7f7f7;
