@@ -116,11 +116,12 @@ body {
   font-size: 2.2rem;
   font-weight: 700;
   text-transform: uppercase;
-  display: inline-block; }
+  display: block; }
   @media (max-width: 56.25em) {
     .heading-tertiary {
       width: 70%;
-      margin-left: 5rem; } }
+      margin-left: 5rem;
+      display: inline-block; } }
 
 .paragraph {
   font-size: 1.6rem; }
