@@ -198,7 +198,27 @@ body {
   @media (max-width: 56.25em) {
     .heading-tertiary-products-1 {
       width: 70%;
-      margin-left: 5rem; } }
+      margin-left: 16.5rem; } }
+  @media (max-width: 37.5em) {
+    .heading-tertiary-products-1 {
+      width: 70%;
+      margin-left: 10rem; } }
+
+.heading-tertiary-content {
+  font-size: 2.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: block;
+  margin-top: 1rem;
+  margin-left: 0; }
+  @media (max-width: 56.25em) {
+    .heading-tertiary-content {
+      width: 70%;
+      margin-left: 11rem; } }
+  @media (max-width: 37.5em) {
+    .heading-tertiary-content {
+      width: 70%;
+      margin-left: 9rem; } }
 
 .u-center-text {
   text-align: center; }
