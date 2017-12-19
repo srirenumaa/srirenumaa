@@ -1134,6 +1134,16 @@ body {
   .feature-box:hover {
     transform: translateY(-1.5rem) scale(1.03); }
 
+.dealer-logo {
+  width: 5rem;
+  height: auto;
+  margin-left: -.5rem; }
+
+.dealer-logo-3 {
+  width: 5rem;
+  height: auto;
+  margin-left: 4.5rem; }
+
 .section-about {
   background-color: #f7f7f7;
   padding: 25rem 0;
